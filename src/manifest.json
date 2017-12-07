@@ -1,0 +1,16 @@
+{
+    "short_name" : "Halloween",
+    "name": "Halloween Memory Game",
+    "description": "This a app memory game",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "index.html",
+    "orientation": "portrait",
+    "icons":[
+        {
+            "src": "images/calavaza.ico",
+            "type": "images/ico",
+            "sizes": "48x48"
+        }
+    ]    
+}

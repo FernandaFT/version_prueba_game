@@ -1,0 +1,125 @@
+li {
+    width: 23%;
+    height: 13vh;
+    display: inline-block;
+    background-size: cover;
+}
+.front-card {
+    background: url(../images/faceSmall1.jpg) no-repeat;
+    background-size: cover;
+}
+.hideCard {
+    visibility: hidden !important;
+}
+.card-cat {
+    background: url(../images/Cat-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-skull {
+    background: url(../images/Skull-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-boiler {
+    background: url(../images/boiler-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-candy {
+    background: url(../images/Candy-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-ghost {
+    background: url(../images/Ghost-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-rip {
+    background: url(../images/RIP-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-boilerOrange {
+    background: url(../images/boiler_orange-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-pumpkin {
+    background: url(../images/Pumpkin-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-bone {
+    background: url(../images/Bone-Small.jpg) no-repeat;
+    background-size: cover;
+}
+.card-hat {
+    background: url(../images/Sombrero-Small.jpg) no-repeat;
+    background-size: cover;
+}
+@media screen and (min-width: 700px) {
+    li {
+        width: 17%;
+        height: 21vh;
+    }
+    .front-card {
+        background-image: url(../images/face2.jpg);
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-cat {
+        background: url(../images/Cat.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-skull {
+        background: url(../images/Skull.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-boiler {
+        background: url(../images/boiler.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-candy {
+        background: url(../images/Candy.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-ghost {
+        background: url(../images/Ghost.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-rip {
+        background: url(../images/RIP.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-boilerOrange {
+        background: url(../images/boiler_orange.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-pumpkin {
+        background: url(../images/Pumpkin.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-bone {
+        background: url(../images/Bone.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+    .card-hat {
+        background: url(../images/Sombrero.jpg) no-repeat;
+        margin-left: 6px;
+        background-position: center;
+        background-size: cover;
+    }
+}

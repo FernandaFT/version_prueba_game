@@ -1,0 +1,122 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+h1 {
+  color: #fff;
+}
+
+img {
+  width: inherit;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+}
+
+section {
+  text-align: center;
+  padding: 5px 5px 0 5px;
+}
+
+a, p, span {
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+@media screen and (min-width: 590px) {
+  header {
+    margin-bottom: 47px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
+
+li {
+  background: url(../../../images/faceSmall1.png) no-repeat;
+  width: 23%;
+  height: 13vh;
+  display: inline-block;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1200px) {
+  li {
+    background-image: url(../../../images/face2.png);
+    width: 17%;
+    height: 21vh;
+    background-size: cover;
+  }
+}
+
+.hideCard {
+  visibility: hidden !important;
+}
+
+.back {
+  background: url(../../../images/cat.png) no-repeat;
+  background-size: cover;
+}
+
+.score {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.score p, .score h1 {
+  display: inline-block;
+}
+
+.title-memorygame {
+  text-align: center;
+}
+
+.btn-reset {
+  background-color: red;
+  padding: 1%;
+  height: 5vh;
+  color: #fff;
+  border: none;
+  border-radius: 27%;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn-reset:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media screen and (min-width: 590px) {
+  .btn-reset {
+    width: 10%;
+    padding: 0;
+  }
+}
